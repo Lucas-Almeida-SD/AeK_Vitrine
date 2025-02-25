@@ -17,5 +17,9 @@
         "react"
     ],
     "rules": {
+        "import/extensions": "off",
+        "@next/next/no-img-element": "off",
+        "react/require-default-props": "off",
+        "react/button-has-type": "off"
     }
 }
