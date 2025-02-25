@@ -1,0 +1,33 @@
+.login-page {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 18px;
+
+    .login-img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .login-input-container {
+      width: 80%;
+    }
+
+    .login-submit-btn {
+      width: 80%;
+    }
+  }
+}
