@@ -1,0 +1,19 @@
+.login-input-container {
+  position: relative;
+
+  input {
+    padding-right: 32px;
+    background-color: transparent;
+    border-color: var(--border);
+    color: var(--paragraph);
+  }
+
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: var(--secondary);
+  }
+}
