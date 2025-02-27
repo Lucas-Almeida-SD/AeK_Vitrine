@@ -5,7 +5,16 @@
     padding-right: 32px;
     background-color: transparent;
     border-color: var(--border);
-    color: var(--paragraph);
+    color: var(--headline);
+    
+    &::placeholder {
+      color: var(--secondary);
+    }
+
+    &:focus {
+      border-color: var(--border);
+      box-shadow: 0 0 2px 2px var(--headline);
+    }
   }
 
   .input-icon {
